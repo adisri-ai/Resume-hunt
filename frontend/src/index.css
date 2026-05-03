@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== GLOBAL STYLES ===== */
+
+body {
+  @apply bg-darkbg text-gray-200 font-sans;
+  background: radial-gradient(circle at top left, #0f172a, #020617);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+.btn-primary {
+  @apply bg-gradient-to-r from-primary to-secondary 
+  text-black px-6 py-2 rounded-lg shadow-glow 
+  hover:scale-105 hover:shadow-purpleGlow;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00f5ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+
+/* Input Styling */
+input, textarea, select {
+  @apply bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 
+  focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-300;
+}
+
+/* Buttons */
+button {
+  @apply transition-all duration-300 ease-in-out font-semibold;
+}
+
+/* Card Styling */
+.card {
+  @apply bg-cardbg backdrop-blur-lg p-6 rounded-xl shadow-lg 
+  border border-gray-800 hover:border-primary transition-all duration-300;
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+/* Headings */
+h1, h2, h3 {
+  @apply font-bold tracking-wide;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(90deg, #00f5ff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
