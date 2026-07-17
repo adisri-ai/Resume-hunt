@@ -1,9 +1,9 @@
 <div align="center">
 
-# 🚀 ResuNexus Free
+# ResuNexus Free
 ### AI-Powered Resume Shortlisting Platform
 
-<img src="assets/resunexus-logo.png" width="170"/>
+<img src="frontend/src/resunexus-logo.png" width="170"/>
 
 <p align="center">
 
@@ -56,8 +56,9 @@ The application extracts required skills from the Job Description and intelligen
 The entire workflow completes within minutes while preserving explainability through skill-wise scoring.
 
 ---
-
-# 🌟 Unique Features
+# Use of Caching for faster response and updates :   
+*CRUD* operations from database are usually very slow. To speed up the application we use **in-memory caching** ans **asynchronous update** to the database to make the application fast for the user.
+# 🌟 Unique Features  
 
 Traditional resume screening is
 
