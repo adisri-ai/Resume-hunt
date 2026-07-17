@@ -20,12 +20,15 @@
 ---
 
 ### 🌐 Live Demo
-https://resunexus-frontend.vercel.app/
-
+The [Live Demo](https://resunexus-frontend.vercel.app/) can be accessed from here.  
+**Warning:**  Initially the login process could take upto 2 mins because of Render Free Tier limits.  
+**Sample Credentials** : 
+1. *email* : `user1@resunexus.com`
+2. *password* : `user1`
 ---
 
-### 📦 Original Enterprise Version
-
+### 📦 Original Cloud Version
+This is the free version of the original cloud version which made use of Microsoft Azure Blob Storage and Premium models. 
 🐳 Docker Repository
 
 The link for accessing [docker repo](https://hub.docker.com/repository/docker/adisrinitw/resunexus2/general) of the original Azure Cloud-based project.
@@ -425,14 +428,4 @@ Resume Processing
 - Candidate Feedback
 - AI Interview Question Generator
 - Resume Summarization
-- Skill Gap Detection
-- Candidate Comparison
-- Email Notifications
-- Recruiter Workspace
-- Organization Support
-- Admin Portal
-- Vector Database Support
-- Resume Embeddings
-- Semantic Search
-
 ---
