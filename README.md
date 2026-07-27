@@ -23,8 +23,8 @@
 The [Live Demo](https://resunexus-frontend.vercel.app/) can be accessed from here.  
 **Warning:**  Initially the login process could take upto 2 mins because of Render Free Tier limits.  
 **Sample Credentials** : 
-1. *email* : `user1@resunexus.com`
-2. *password* : `user1`
+1. *email* : `user2@resunexus.com`
+2. *password* : `user27861`
 ---
 
 ### 📦 Original Cloud Version
